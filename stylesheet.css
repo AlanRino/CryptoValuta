@@ -1,0 +1,88 @@
+body {
+  background-color:white;
+
+}
+
+.navbarCrypto{
+    background-color: rgb(88, 20, 37);
+}
+.headerCrypto{
+    color: white;
+}
+
+.containerCrypto{
+color: rgb(88, 20, 37);
+top: px;
+padding: 3.75rem 0;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-top: 20px;
+}
+
+
+.card {
+    padding: 1.25rem;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    height: 100%;
+    font-size: .9375rem;
+    display: flex;
+    flex-direction: column;
+    transition: box-shadow .3s;
+}
+
+.card.coin-price .coin-header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 0 0 1.875rem;
+}
+
+.coin-name {
+    position: absolute;
+    left: 10px;
+}
+
+.card .card-description {
+    padding: 0 0 1.25rem;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.coin-data ul {
+    list-style: none;
+    padding: 1.875rem 0;
+    margin: 0;
+}
+
+.coin-data ul .coin-stat {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 .9375rem;
+    font-size: .9375rem;
+}
+
+.card .card-actions {
+    margin-top: auto;
+}
+
+.card .card-actions .btn {
+    color: #212529;
+    background-color: #f2f2f2;
+    border-color: #f2f2f2;
+    width: 100%;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+#valueChangeMin{
+    color: red;
+}
+
+#valueChangePlus{
+    color: green;
+}
